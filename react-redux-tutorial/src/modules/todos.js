@@ -5,6 +5,8 @@ const INSERT = 'todos/INSERT'; // 새로운 todo를 등록함
 const TOGGLE = 'todos/TOGGLE'; // todo를 체크/체크 해제함
 const REMOVE = 'todos/REMOVE'; // todo를 제거함
 
+
+
 export const changeInput = createAction(CHANGE_INPUT, (input) => input);
 
 let id = 3; // insert가 호출될 때마다 1씩 더해집니다.
